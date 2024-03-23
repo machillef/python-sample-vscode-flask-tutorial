@@ -17,3 +17,7 @@ jobs:
   dependsOn: Debug
   steps:
   - script: echo hello from the Release build
+- job: Test Job 2
+  steps:
+  - script: echo test job 2
+
